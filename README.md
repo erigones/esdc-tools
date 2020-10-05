@@ -20,7 +20,7 @@ Requirements
 * 6GB USB key size for first compute node or 2GB for next compute node (non-management)
 * 100GB+ of HDD size
 * Intel CPU (because of KVM)
-* Private admin network (see instructions after running the conversion script)
+* Private admin network (see instructions printed by the conversion script)
 
 Rollback
 --------
