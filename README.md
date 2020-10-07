@@ -17,9 +17,9 @@ smartos# ./convert-smartos-to-danube-cloud.sh
 
 Requirements
 ------------
-* 6GB USB key size for first compute node or 2GB for next compute node (non-management)
+* 6GB USB key size for the first compute node or 2GB for next compute node (non-management)
 * 100GB+ of HDD size
-* Intel CPU (because of KVM)
+* Intel CPU (only for the first compute node, because of KVM)
 * Private admin network (see instructions printed by the conversion script)
 
 Rollback

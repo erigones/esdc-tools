@@ -746,6 +746,8 @@ Steps to go
 
 After reboot, watch the server console or ${nextlog}
 
+** Note: this node will register into Danube Cloud as '${HOSTNAME}'. If you want to change the name, update the 'hostname' variable in /usbkey/config before continuing.
+
 Continue? (Y/n) "
 if ! prompt_yes_no "$message" "yes"; then
 	echo "Exiting..."
