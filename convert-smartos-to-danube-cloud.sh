@@ -619,7 +619,10 @@ if ! prompt_yes_no "$message" "yes"; then
 fi
 
 message="
-Is this the first Danube Cloud compute node (deploy management VMs)? (Y/n) "
+Deploy management VMs?
+- if this is the first compute node and you want to turn it into Danube Cloud, choose 'y'
+- if you want to add this node to already existing Danube Cloud installation, choose 'n'
+Your choice (Y/n) "
 if prompt_yes_no "$message" "yes"; then
 	IMG_TYPE=hn
 else
